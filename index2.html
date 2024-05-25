@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Room Builder</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121a24;
+            color: #ffffff;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 90vh;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .iframe-container {
+            width: 80%;
+            height: 80%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 8px;
+        }
+        .description {
+            font-size: 20px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+        .descriptions {
+            font-size: 18px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+        .descriptionf {
+            font-size: 20px;
+            margin-bottom: 0px;
+            margin-top: 20px;
+        }
+        .button {
+            background-color: #1d72b8;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <script src="app2.js"></script>
+    <div class="container">
+            <div class="iframe-container">
+                <iframe
+                src="https://khakha333-escaperoomgame-building-assistant.hf.space"
+                frameborder="0"
+                width="850"
+                height="450"
+                ></iframe>
+            </div>
+            <div class="description">There will be total 5 Steps</div>
+            <div class="descriptions">Step1: Theme and storyline.</div>
+            <div class="descriptions">Step2: Whole story</div>
+            <div class="descriptions">Step3: Specific details</div>
+            <div class="descriptions">Step4: Puzzles and challenges</div>
+            <div class="descriptions">Step5: Check your final results</div>
+            <div class="descriptionf">If you like your final result, COPY the last results! You could use it in next page.</div>
+            <a href="#" class="button">I will go with this one!</a>
+    </div>
+</body>
+</html>
